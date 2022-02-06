@@ -1656,7 +1656,7 @@ function prg(){
 			exit 0 
 	elif [ "${mode}" == 'exploit' ];then
 			echo "exploit"
-        	banner
+        	goBanner
 			403bypass
         	exit 0
 	fi
