@@ -27,7 +27,7 @@ echo -e ${SORANGE}"     \/         |__|       \/     \/     \/${SPURPLE}        
 echo -e ${SORANGE}"                                       ${SPURPLE}              =#-+*:**-#= ";
 echo -e ${SORANGE}"                                       ${SPURPLE}             =# -#   #- #=   ";
 echo -e ${SORANGE}"                                        ${SPURPLE}           =-=:*=   =*:=-=";
-echo -e ${RED}"b9pass.sh ${RESET}* Simple Bash for Bypassing 403/401  ${RESET}${SPURPLE}    .:-.#-   -#.-:.     ";
+echo -e ${red}"b9pass.sh ${RESET}* Simple Bash for Bypassing 403/401  ${RESET}${SPURPLE}    .:-.#-   -#.-:.     ";
 echo -e ${RESET}     " ~ https://github.com/ninebrainer/b9pass           ${SPURPLE}  =-+. .+-=${RESET}"
 echo -e 
 echo -e 
@@ -45,6 +45,8 @@ black='\e[38;5;016m'
 bluebg='\e[48;5;038m'${black}
 end='\e[0m'
 termwidth="$(tput cols)"
+SPURPLE="\033[0;35m"
+SORANGE="\033[0;33m"
 
 
 goBanner ## Called Banner B9PASS
