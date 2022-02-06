@@ -35,30 +35,16 @@ echo -e
 
 #### Colors Output
 
-RESET="\033[0m"			# Normal Colour
-red="\033[0;31m" 		# Error / Issues
-green="\033[0;32m"		# Successful       
-BOLD="\033[01;01m"    	# Highlight
-WHITE="\033[1;37m"		# BOLD
-yellow="\033[1;33m"		# Warning
-PADDING="  "
-DPADDING="\t\t"
-
-
-#### Other Colors / Status Code
-
-LGRAY="\033[0;37m"		# Light Gray
-LRED="\033[1;31m"		# Light Red
-LGREEN="\033[1;32m"		# Light GREEN
-LBLUE="\033[1;34m"		# Light Blue
-LPURPLE="\033[1;35m"	# Light Purple
-ltcyan="\033[1;36m"		# Light Cyan
-SORANGE="\033[0;33m"	# Standar Orange
-SBLUE="\033[0;34m"		# Standar Blue
-SPURPLE="\033[0;35m"	# Standar Purple      
-SCYAN="\033[0;36m"		# Standar Cyan
-DGRAY="\033[1;30m"		# Dark Gray
-BLACK="\e[0;30m"		# BLACK 
+red='\e[31m'
+green='\e[32m'
+blue='\e[34m'
+cyan='\e[96m'
+ltcyan='\e[96m'
+yellow='\e[33m'
+black='\e[38;5;016m'
+bluebg='\e[48;5;038m'${black}
+end='\e[0m'
+termwidth="$(tput cols)"
 
 
 goBanner ## Called Banner B9PASS
