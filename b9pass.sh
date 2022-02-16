@@ -73,7 +73,7 @@ function print(){
 
 function usage(){
         printf "Usage:\n"
-        printf "\t403-bypass [URL]\n">&2
+        printf "\tb9pass.sh [URL]\n">&2
         printf '\n' >&2
         printf "\t-u, --url URL\t\t\ttarget DOMAIN.TLD/PATH\n">&2
 		printf '\n' >&2
