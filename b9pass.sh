@@ -54,7 +54,7 @@ goBanner ## Called Banner B9PASS
 help () {
   echo "X-X"
 	echo "Accepted parameters:"
-	echo "Use -u along with a domain name, example sh b9pass.sh -d domain.com"
+	echo "Use -u along with a domain name, example sh b9pass.sh -u domain.com"
 	echo "Null string will be detected and ignored"
 }
 
