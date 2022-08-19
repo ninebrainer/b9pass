@@ -32,7 +32,7 @@ echo -e ${RESET}     " ~ https://github.com/ninebrainer/b9pass           ${SPURP
 echo -e 
 echo -e 
 }
-
+${RESET}
 #### Colors Output
 
 red='\e[31m'
@@ -50,6 +50,7 @@ SORANGE="\033[0;33m"
 
 
 goBanner ## Called Banner B9PASS
+${RESET}
 
 help () {
   echo "X-X"
